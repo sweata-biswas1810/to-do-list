@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+
+</head>
+
+<body>
+    <div class="todo-container">
+        <h1>To Do List</h1>
+        <div class="progress-container">
+            <div class="progress-line" id="progress-line"></div>
+        </div>
+        <div class="task-counter" id="task-counter">0 / 0</div>
+        <div class="input-group">
+            <input type="text" id="task-input" placeholder="Add new task...">
+            <button id="add-task">+</button>
+        </div>
+        <div class="filter-buttons">
+            <button id="filter-all" class="active">All</button>
+            <button id="filter-active">Active</button>
+            <button id="filter-completed">Completed</button>
+        </div>
+        <ul id="task-list"></ul>
+        <p id="congrats-msg" class="hidden">Well done! All tasks are completed.</p>
+        <button id="new-task-btn" class="hidden">Add New Task</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

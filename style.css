@@ -1,0 +1,171 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0e33;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .todo-container {
+      background-color: #1c1b4d;
+      border-radius: 15px;
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 500px;
+      box-shadow: 0 0 20px #9333ea;
+      text-align: center;
+    }
+
+    .todo-container h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .progress-container {
+      background: #2f2d66;
+      height: 5px;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .progress-line {
+      height: 5px;
+      width: 0%;
+      background: #9333ea;
+      box-shadow: 0 0 10px #9333ea;
+      transition: width 0.4s ease;
+    }
+
+    .task-counter {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+
+    #task-input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1em;
+    }
+
+    #add-task {
+      padding: 0 16px;
+      background-color: #6d28d9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+
+    #add-task:hover {
+      background-color: #9333ea;
+      box-shadow: 0 0 10px #9333ea;
+    }
+
+    .filter-buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .filter-buttons button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      background: #2f2d66;
+      color: #fff;
+      cursor: pointer;
+      transition: box-shadow 0.3s;
+    }
+
+    .filter-buttons .active {
+      background: #9333ea;
+      box-shadow: 0 0 8px #9333ea;
+    }
+
+    ul#task-list {
+      list-style: none;
+      text-align: left;
+    }
+
+    ul#task-list li {
+      background-color: #2f2d66;
+      padding: 14px 12px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: box-shadow 0.3s;
+    }
+
+    ul#task-list li:hover {
+      box-shadow: 0 0 10px #9333ea;
+    }
+
+    ul#task-list li.completed span {
+      text-decoration: line-through;
+      color: #9ca3af;
+    }
+
+    ul#task-list li span {
+      flex: 1;
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+
+    ul#task-list li button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2em;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    #congrats-msg {
+      margin-top: 20px;
+      color: #00f7ff;
+      font-weight: bold;
+    }
+
+    #new-task-btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #9333ea;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #9333ea;
+    }
+
+    #new-task-btn:hover {
+      background-color: #7e22ce;
+      box-shadow: 0 0 12px #9333ea;
+    }
+
+    .hidden {
+      display: none;
+    }
