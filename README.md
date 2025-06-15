@@ -2,14 +2,14 @@
 
 A beautifully styled **Todo List Web App** built with **HTML**, **CSS**, and **JavaScript** — featuring glowing UI effects, task filtering, progress tracking, and a motivational message on completion.
 
-Features
- Add, edit, delete tasks
- Filter by: All / Active / Completed
- Glowing modern UI with clean design
- Progress tracker with animated bar
- Congratulatory message when all tasks are done
- "Add New Task" button clears old tasks and starts fresh
- 
+Features<br>
+ Add, edit, delete tasks<br>
+ Filter by: All / Active / Completed<br>
+ Glowing modern UI with clean design<br>
+ Progress tracker with animated bar<br>
+ Congratulatory message when all tasks are done<br>
+ "Add New Task" button clears old tasks and starts fresh<br>
+ <br>
 Technologies Used
 
 - **HTML5** – Semantic structure
