@@ -16,8 +16,6 @@ Technologies Used
 - **CSS3** – Custom styles with glow effects, flex layout
 - **Vanilla JavaScript** – DOM manipulation, task management
 
-> No external libraries or frameworks are used – it's completely self-contained in one HTML file.
-
 ---
  How It Works
 
