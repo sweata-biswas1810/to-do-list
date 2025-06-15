@@ -1,6 +1,6 @@
  To do List
 
-A beautifully styled **Todo List Web App** built with **HTML**, **CSS**, and **JavaScript** — featuring glowing UI effects, task filtering, progress tracking, and a motivational message on completion.
+A beautifully styled **Todo List ** built with **HTML**, **CSS**, and **JavaScript** — featuring glowing UI effects, task filtering, progress tracking, and a motivational message on completion.
 
 Features<br>
  Add, edit, delete tasks<br>
